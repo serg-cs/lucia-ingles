@@ -60,10 +60,6 @@ img {
   font-size: 1.5rem;
   margin-left: auto;
   margin-right: auto;
-
-  @media (min-width: 768px) {
-    font-size: 3rem;
-  }
 }
 
 .form-check.form-switch {
