@@ -64,10 +64,6 @@ img {
   @media (min-width: 768px) {
     font-size: 3rem;
   }
-
-  @media (min-width: 1200px) {
-    font-size: 4rem;
-  }
 }
 
 .form-check.form-switch {
@@ -83,6 +79,7 @@ img {
 .calendly-button {
   padding: 15px 30px;
   font-size: 1.2rem;
+  font-weight: bold;
   border-radius: 50px;
   transition: all 0.3s ease;
 }
