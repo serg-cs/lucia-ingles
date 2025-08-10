@@ -1,0 +1,93 @@
+/* General Styles */
+body {
+  transition: background-color 0.3s, color 0.3s;
+}
+
+/* Light Mode */
+body {
+  background-color: #fff;
+  color: #212529;
+}
+
+.bg-light {
+  background-color: #f8f9fa !important;
+}
+
+/* Dark Mode */
+body.dark-mode {
+  background-color: #121212;
+  color: #fff;
+}
+
+body.dark-mode .bg-light {
+  background-color: #343a40 !important;
+}
+
+body.dark-mode .navbar {
+  background-color: #212529 !important;
+  color: #fff;
+}
+
+body.dark-mode .navbar-brand,
+body.dark-mode .nav-link {
+  color: #fff !important;
+}
+
+body.dark-mode .card {
+  background-color: #212529;
+  color: #fff;
+}
+
+/* Sections */
+section {
+  padding: 60px 0;
+}
+
+img {
+  max-height: 500px;
+}
+
+/* Header */
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.navbar-brand {
+  /* Responsive navbar brand size */
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin-left: auto;
+  margin-right: auto;
+
+  @media (min-width: 768px) {
+    font-size: 3rem;
+  }
+
+  @media (min-width: 1200px) {
+    font-size: 4rem;
+  }
+}
+
+.form-check.form-switch {
+  margin-right: 1rem;
+}
+
+/* Cards */
+.card {
+  height: 100%;
+}
+
+/* Calendly Button */
+.calendly-button {
+  padding: 15px 30px;
+  font-size: 1.2rem;
+  border-radius: 50px;
+  transition: all 0.3s ease;
+}
+
+.calendly-button:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 20px rgba(0, 123, 255, 0.5);
+}
